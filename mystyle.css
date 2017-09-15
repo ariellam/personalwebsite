@@ -2,26 +2,59 @@
 body{
 	/*background-image: url("stardust.png");*/
 	background-color: rgba(3, 25, 38, 1);
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Muli', sans-serif;	
 	color: white;
 
 }
 
 .header {
+	padding-top: 50px;
 	font-size: 40pt;
+	font-family: 'Nunito', sans-serif; 
 }
 
-.col-sm {
-	background-color:rgba(132, 140, 142, 1);
-	font-family: 'Nunito', sans-serif; 
-	height: 60px;
-	-webkit-transition: background-color 1s;
-	transition:background-color 1s;
+.picture{
+
 }
-.col-sm:hover {
-	background-color:rgba(67, 80, 88, 1);
-	height: 60px;
-}
+
 .logo {
 
+}
+
+.quote {
+
+}
+
+.icon {
+	display: inline-block;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	-webkit-transition: background-image 0.2s ease-out; 
+    transition: background-image 0.2s ease-out;
+}
+
+.git{
+	background-image: url(src/github-with-circle.svg);
+
+}
+.git:hover {
+	background-image: url(src/github-with-circle-hover.svg);
+}
+
+.linkedin{
+	background-image: url(src/linkedin-with-circle.svg);
+
+}
+.linkedin:hover {
+	background-image: url(src/linkedin-with-circle-hover.svg);
+}
+
+.mail{
+	background-image: url(src/mail-with-circle.svg);
+
+}
+.mail:hover {
+	background-image: url(src/mail-with-circle-hover.svg);
 }
