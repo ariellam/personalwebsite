@@ -1,36 +1,26 @@
 
 body{
-	/*background-image: url("stardust.png");*/
 	background-color: rgba(3, 25, 38, 1);
-	font-family: 'Muli', sans-serif;	
-	color: white;
+	background-image:url("darkness.png");
+	font-family: 'Muli', sans-serif;
+	color: white;	
+	
 
 }
 
-.header {
-	padding-top: 50px;
-	font-size: 40pt;
+h1, h2, h3, h4, h5, h6{
 	font-family: 'Nunito', sans-serif; 
-}
-
-.picture{
 
 }
 
-.logo {
-
-}
-
-.quote {
-
-}
 
 .icon {
 	display: inline-block;
 	text-indent: -9999px;
 	width: 30px;
 	height: 30px;
-	padding: 10px;
+
+	margin: 0px;
 	-webkit-transition: background-image 0.2s ease-out; 
     transition: background-image 0.2s ease-out;
 }
@@ -57,4 +47,36 @@ body{
 }
 .mail:hover {
 	background-image: url(src/mail-with-circle-hover.svg);
+}
+.projgrid{
+	-webkit-transition: background-image 0.2s ease; 
+    transition: background-image 0.2s ease;
+}
+.edumatch{
+	background-image: url("Grid-edumatch.gif");
+}
+.edumatch:hover{
+	background-image: url("me.png");
+}
+#iphone{
+
+	background-size:contain;
+	background-image:url('src/iphone/pic1.png');
+	-webkit-transition: background-image 1s; 
+    transition: background-image 1s;
+}
+
+#iPhoneButton{
+
+}
+.carousel-caption{
+	display:none;
+}
+
+#filterText
+{
+}
+.card{
+	color: Black;
+
 }
