@@ -12,7 +12,10 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Nunito', sans-serif; 
 }
 
+.proj-titles{
+	color: rgba(3, 25, 38, 1);	
 
+}
 .icon {
 	display: inline-block;
 	text-indent: -9999px;
@@ -57,6 +60,7 @@ h1, h2, h3, h4, h5, h6{
 .edumatch:hover{
 	background-image: url("me.png");
 }
+
 #iphone{
 
 	background-size:contain;
