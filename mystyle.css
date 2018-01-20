@@ -12,9 +12,20 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Nunito', sans-serif; 
 }
 
-.proj-titles{
+.on-white{
 	color: rgba(3, 25, 38, 1);	
+}
 
+
+.banner {
+    position: relative;
+}
+
+#caption {
+    position: relative;
+    vertical-align: center;
+
+    text-stroke:red;
 }
 .icon {
 	display: inline-block;

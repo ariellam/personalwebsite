@@ -37,81 +37,147 @@
 			     <br>
 			</div>
 			<div class="col-sm-8 text-left" style="padding: 5%">
-
+				<p>
 				Hey! I'm Ariel. I'm a Software Engineering student at the Unversity of Waterloo. I'm interested in mobile UI/UX design, making cool things, and combining my creativity with code. On my spare time, I love to draw, listen to music, and design.
-			    <br><br>
-			    Oh yeah, did I mention I make and sell pins?
+				</p>
 			</div>
 		</div>
 		<br>
-<!--
-		<div class="row">
-			<div class ="col-sm-4">
-				<div class="card">
-					<img class="card-img-top" src="src/images/Grid-Tama.gif" alt="Card image">
-		 			<div class="card-body text-center">
-		 				<a href=""><h4 class="card-title">Software</h4></a>
-		    			<p class="card-text"></p>
-		    		</div>
-		    	</div>
-			</div>
-			<div class ="col-sm-4">
-				<div class="card">
-					<img class="card-img-top" src="src/images/Grid-edumatch.gif" alt="Card image">
-		 			<div class="card-body text-center">
-		 				<a href=""><h4 class="card-title">Design</h4></a>
-		    			<p class="card-text"></p>
-		    		</div>
-		    	</div>
-			</div>
-			<div class ="col-sm-4">
-				<div class="card">
-					<img class="card-img-top" src="src/images/art-icon.png" alt="Card image">
-		 			<div class="card-body text-center">
-		 				<a href=""><h4 class="card-title">Artwork</h4></a>
-		    			<p class="card-text"></p>
-		    		</div>
-		    	</div>
-
-			</div>
-		</div>
--->
 	</div>
+	<div id="llp" class="banner">
+		<img src="src/llp-withlogo.png" class="banner text-center img-fluid" alt="Pins">
+		<!--
+		 <div id="caption" class="text-center">
+            <img src="src/llp-withlogo.png" class="banner text-center col-sm-8" alt="Lucky Last Press Logo" >
+        </div>
+		-->
+	</div>
+	<div id="project-1">
+		<div id="edumatch-carousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#edumatch-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="1"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="2"></li>
+			  </ul>
 
-	<div id="edumatch" class="carousel slide" data-ride="carousel">
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="img-fluid" src="src/Edumatch-1.png" alt="Edumatch 1">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-2.png" alt="Edumatch 2">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-3.png" alt="Edumatch 3">
+			    </div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#edumatch-carousel" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#edumatch-carousel" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+		</div>	
+		<div class ="text-center on-white" style="background:white;">
+			<br>
+			<h1 class="display-6 proj-titles">EduMatch</h1>
+			<p>
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-secondary " data-toggle="modal" data-target="#edumatch-preview">
+				  Preview
+				</button> 
+				<a class="btn btn-secondary" href="https://github.com/ariellam/edumatch" role="button">Github</a>
+			</p>
+			<div class="container text-left col-sm-8">
+				<p>
+				EduMatch is a social platform that allows high school and university students to connect with Mentors – industry professionals, business gurus, experienced scholars – who can give them advice for post-secondary education and beyond.
+				</p>
+				<p>
+				Designed in Adobe Photoshop and prototyped in Adobe Experience Design.
+				</p>
+				<p>
+				Created at EduHacks 2017, Vancouver, BC.
+				</p>
+			</div>
+			<br>
+				<!-- The Modal -->
+				<div class="modal fade" id="edumatch-preview">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <!-- Modal body -->
+				      <div class="modal-body">
+				        <iframe width="250" height="449" src="https://xd.adobe.com/embed/274755b6-3480-47c5-9d9a-d78a182307e1" frameborder="0" allowfullscreen></iframe>
+				      </div>
 
-		  <!-- Indicators -->
-		  <ul class="carousel-indicators">
-		    <li data-target="#edumatch" data-slide-to="0" class="active"></li>
-		    <li data-target="#edumatch" data-slide-to="1"></li>
-		    <li data-target="#edumatch" data-slide-to="2"></li>
-		  </ul>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	<div id="project-2">
+		<div id="sweather-carousel" class="carousel slide" data-ride="carousel">
 
-		  <!-- The slideshow -->
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img class="img-fluid" src="src/Edumatch-1.png" alt="Edumatch 1">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="img-fluid" src="src/Edumatch-2.png" alt="Edumatch 2">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="img-fluid" src="src/Edumatch-3.png" alt="Edumatch 3">
-		    </div>
-		  </div>
-		  <!-- Left and right controls -->
-		  <a class="carousel-control-prev" href="#edumatch" data-slide="prev">
-		    <span class="carousel-control-prev-icon"></span>
-		  </a>
-		  <a class="carousel-control-next" href="#edumatch" data-slide="next">
-		    <span class="carousel-control-next-icon"></span>
-		  </a>
-	</div>	
-	<div style="background:white;">
-		<br>
-		<h1 class="display-6 text-center proj-titles">Edumatch<br>
-			<small class="text-muted h5">Helping students discover their passions.</small></h1>
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#sweather-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#sweather-carousel" data-slide-to="1"></li>
+			    <li data-target="#sweather-carousel" data-slide-to="2"></li>
+			  </ul>
 
-	</div>	
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="img-fluid" src="src/Edumatch-1.png" alt="Edumatch 1">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-2.png" alt="Edumatch 2">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-3.png" alt="Edumatch 3">
+			    </div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#sweather-carousel" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#sweather-carousel" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+		</div>	
+		<div class ="text-center on-white" style="background:white;">
+			<br>
+			<h1 class="display-6 proj-titles">Sweather</h1>
+			<p>
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-secondary " data-toggle="modal" data-target="#sweather-preview">
+				  Preview
+				</button> 
+			</p>
+			<div class="container text-left col-sm-8">
+				<p>
+				Sweather is an upcoming app which gives you outfit recommendations based on previous days with similar climate conditions.
+				</p>
+				<p>
+				Created using Adobe Illustrator, Sketch and Prototype.
+				</p>
+			</div>
+			<br>
+				<!-- The Modal -->
+				<div class="modal fade" id="sweather-preview">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <!-- Modal body -->
+				      <div class="modal-body">
+				        <iframe width="250" height="449" src="https://xd.adobe.com/embed/274755b6-3480-47c5-9d9a-d78a182307e1" frameborder="0" allowfullscreen></iframe>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
