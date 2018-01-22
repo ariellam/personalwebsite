@@ -12,21 +12,21 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Nunito', sans-serif; 
 }
 
-.on-white{
+.info-on-white{
 	color: rgba(3, 25, 38, 1);	
+	background-color: white;
+
 }
 
+#profile-pic{
+	max-width:300px;
+
+}
 
 .banner {
     position: relative;
 }
 
-#caption {
-    position: relative;
-    vertical-align: center;
-
-    text-stroke:red;
-}
 .icon {
 	display: inline-block;
 	text-indent: -9999px;
@@ -70,6 +70,11 @@ h1, h2, h3, h4, h5, h6{
 }
 .edumatch:hover{
 	background-image: url("me.png");
+}
+
+.vertical-align {
+	display: flex;
+    align-items: center;
 }
 
 #iphone{
