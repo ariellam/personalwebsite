@@ -11,6 +11,10 @@ body{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Nunito', sans-serif; 
 }
+.display-4{
+		font-family: 'Nunito', sans-serif; 
+
+}
 
 .info-on-white{
 	color: rgba(3, 25, 38, 1);	
@@ -75,6 +79,37 @@ h1, h2, h3, h4, h5, h6{
 .vertical-align {
 	display: flex;
     align-items: center;
+}
+
+.hover-text {
+  color: rgba(3, 25, 38, 1);
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.grid-image{
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.grid-image:hover .overlay{
+	opacity: 0.8;
 }
 
 #iphone{
