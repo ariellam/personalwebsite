@@ -2,7 +2,6 @@
 body{
 	overflow: hidden;
 	background-color: rgba(3, 25, 38, 1);
-	background-image:url("darkness.png");
 	font-family: 'Muli', sans-serif;
 	color: white;	
 }
