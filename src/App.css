@@ -1,0 +1,39 @@
+.App {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.me-style {
+  margin-top: -40px;
+  height: 700px;
+}
+
+.header {
+  text-align: left;
+  padding-left: 120px;
+}
+
+.title-style{
+  color: #031926;
+  font-size: 75px;
+  font-family: 'Playfair Display', serif;
+  height: 75px;
+}
+
+.intro-style {
+  margin-top: -25px;
+  font-size: 18pt;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+a:link {
+  color: #2f7bd8;
+  text-decoration: none;    
+}
+a:visited {
+  color: #2f7bd8;
+  text-decoration: none;
+
+}
