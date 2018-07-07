@@ -1,11 +1,41 @@
 
 body{
 	overflow: hidden;
-	background-color: rgba(3, 25, 38, 1);
-	font-family: 'Muli', sans-serif;
-	color: white;	
+	background-color: white;
+	font-family: 'Space Mono', monospace;
+    color: black;	
+        line-height: 30px;
+        background: #fff;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+        background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        -webkit-background-size: 100% 30px;
+        -moz-background-size: 100% 30px;
+        -ms-background-size: 100% 30px;
+        -o-background-size: 100% 30px;
+        background-size: 100% 30px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07);
 }
 
+body::before {
+        content: '';
+        position: absolute;
+        width: 6px;
+        top: 0;
+        left: 60px;
+        height: fit-content;
+        bottom: 0;
+        border: 2px solid;
+        border-color: transparent #efe4e4;
+}
 /* Preloader */
 
 #preloader {
@@ -36,12 +66,37 @@ body{
   /* is width and height divided by two */
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-family: 'Nunito', sans-serif; 
+/* h1, h2, h3, h4, h5, h6{
+	font-family: 'Caveat', sans-serif; 
+} */
+a:link {
+    color: grey;
+    -webkit-transition:0.2s ease-in-out; 
+    transition: 0.2s ease-in-out;
+    
 }
-.display-4{
-		font-family: 'Nunito', sans-serif; 
 
+/* visited link */
+a:visited {
+    color: grey;
+    -webkit-transition:0.2s ease-in-out; 
+    transition: 0.2s ease-in-out;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+    -webkit-transition:0.2s ease-in-out; 
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: lightblue;
+}
+.display-3{
+        font-family: 'Work Sans', monospace; 
 }
 
 .info-on-white{
@@ -123,6 +178,11 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+.header {
+    top: 204px;
+    left: 100px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -160,5 +220,15 @@ h1, h2, h3, h4, h5, h6{
 }
 .card{
 	color: Black;
+
+}
+
+#portrait{
+    width: 450px;
+    height: 800px;
+    margin-top: 40px;
+    opacity: 80%;
+}
+.links{
 
 }

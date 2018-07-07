@@ -1,0 +1,628 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Ariel Lam </title>
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito|Muli|" rel="stylesheet">
+	<script src="javascript.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+  </head>
+  	<body>
+  	<div id="preloader">
+	  <div id="status" ></div>
+	</div>
+  	<ul class="nav sticky-top navbar-light bg-light border-bottom border-secondary" style="z-index:3;">
+		<li class="nav-item">
+		<a class="nav-link smooth" href="#home" style="color: #01cdff;">Home</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link smooth" href="#projects" style="color: #01cdff; ">Projects</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link smooth" href="#artwork" style="color: #01cdff;">Art & Design</a>
+		</li>
+	</ul>
+	<br>
+	<div id="home" style="position: relative; top:-50px;">
+	</div>
+  	<h1 class="display-3 text-center">Ariel Lam</h1>
+  	<h4 class="display-5 text-center">Developer, hacker, designer, artist.</h4>
+
+  	<br>
+  	<br>
+  	<div class ="container">
+  		<div class="row align-items-center ">
+  			<div class="col-md-1 col-lg-2 col-xl-2">
+  			</div>
+  			<div class="col-sm-6 col-md-5 col-lg-4 col-xl-4  text-center">
+			  	<img src="src/profile-cropped.jpg" class="rounded-circle thumbnail" alt="Profile Picture" style="max-width: 250px; border: 5px solid white;">
+			</div>
+  			<div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 text-left">
+					Hey! I'm Ariel. I'm a Software Engineering student at the Unversity of Waterloo. I'm interested in mobile UI/UX design and development, making cool things, and combining my creativity with code. On my spare time, I love to read, listen to indie rock, and draw.
+			</div>
+  			<div class="col-md-1 col-lg-2 col-xl-2">
+  			</div>
+		</div>
+		<br>
+		<div class="row text-center">
+			<div class="col">
+				<br>
+				You can find me on <a href="https://github.com/ariellam" style="color: #01cdff;">Github</a>, <a href="https://www.linkedin.com/in/arielclam/" style="color: #01cdff;">LinkedIn</a>, and <a href="https://devpost.com/arielclam" style="color: #01cdff;">Devpost</a>.
+				<br>
+			</div>
+		</div>
+		<br>
+
+	</div>
+	<br><br>
+	<div id="projects" style="position: relative; top:-40px;">
+	</div>
+	<div  class="display-4 text-center info-on-white" style="background-color:white; padding-top: 10px; padding-bottom: 10px">Projects
+	</div>
+	<div id="project-2" class="info-on-white">
+		<div id="sweather-carousel" class="carousel slide mx-auto" data-ride="carousel">
+			   <!--
+
+			  <ul class="carousel-indicators">
+			    <li data-target="#sweather-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#sweather-carousel" data-slide-to="1"></li>
+			    <li data-target="#sweather-carousel" data-slide-to="2"></li>
+			  </ul>
+				-->
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="img-fluid" src="src/sweather-mockup.png" alt="Sweather">
+			    </div>
+			   <!--
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="" alt="Edumatch 2">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="" alt="Edumatch 3">
+			    </div>
+			   -->
+			  </div>
+		</div>	
+		<div class ="text-center info-on-white">
+			<br>
+			<h1 class="display-6 proj-titles">Sweather</h1>
+			<p>
+				<!-- Button to Open the Modal
+				<button type="button" class="btn btn-secondary " data-toggle="modal" data-target="#sweather-preview">
+				  Preview
+				</button>  -->
+			</p>
+			<div class="container text-left col-sm-8 on-white">
+				<p>
+				Sweather is an upcoming app which gives you outfit recommendations based on previous days with similar climate conditions.
+				</p>
+				<p>
+				Created using Adobe Illustrator, Sketch and Principle.
+				</p>
+			</div>
+			<br>
+				<!-- The Modal -->
+				<div class="modal fade" id="sweather-preview">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <!-- Modal body -->
+				      <div class="modal-body">
+				        <iframe width="250" height="449" src="https://xd.adobe.com/embed/274755b6-3480-47c5-9d9a-d78a182307e1" frameborder="0" allowfullscreen></iframe>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	<div id="project-1" class="info-on-white">
+		<div id="edumatch-carousel" class="carousel slide mx-auto" data-ride="carousel" >
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#edumatch-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="1"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="2"></li>
+			  </ul>
+
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="img-fluid" src="src/Edumatch-1.png" alt="Edumatch 1">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-2.png" alt="Edumatch 2">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="img-fluid" src="src/Edumatch-3.png" alt="Edumatch 3">
+			    </div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#edumatch-carousel" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#edumatch-carousel" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+		</div>	
+		<div class ="text-center info-on-white">
+			<br>
+			<h1 class="display-6 proj-titles">EduMatch</h1>
+			<p>
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-secondary " data-toggle="modal" data-target="#edumatch-preview">
+				  Preview
+				</button>       
+				<a class="btn btn-secondary" href="https://github.com/ariellam/edumatch" role="button">Github</a>
+			</p>
+			<div class="container text-left col-sm-8">
+				<p>
+				EduMatch is a social platform that allows high school and university students to connect with Mentors – industry professionals, business gurus, experienced scholars – who can give them advice for post-secondary education and beyond.
+				</p>
+				<p>
+				Designed in Adobe Photoshop and prototyped in Adobe Experience Design.
+				</p>
+				<p>
+				Won <b>Best Use of Adobe Creative Cloud</b> at EduHacks 2017, Vancouver, BC.
+				</p>
+			</div>
+			<br>
+				<!-- The Modal -->
+				<div class="modal fade" id="edumatch-preview">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <!-- Modal body -->
+				      <div class="modal-body">
+				        <iframe width="377" height="667" src="https://xd.adobe.com/embed/9eb119b7-2fb9-494b-94b0-d509bfd6a300" frameborder="0" allowfullscreen></iframe>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>	
+	<div id="project-3" class="info-on-white">
+		<div id="givingtree-carousel" class="carousel slide mx-auto" data-ride="carousel" >
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#edumatch-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="1"></li>
+			    <li data-target="#edumatch-carousel" data-slide-to="2"></li>
+			  </ul>
+
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="img-fluid" src="src/giving-tree-1.png" alt="GivingTree-1">
+			    </div>
+		</div>	
+		<div class ="text-center info-on-white">
+			<br>
+			<h1 class="display-6 proj-titles">GivingTree</h1>
+			<p>
+				<!-- Button to Open the Modal -->
+				<a class="btn btn-secondary" href="https://devpost.com/software/givingtreeapp" role="button">				 
+					Devpost
+				</a>       
+				<a class="btn btn-secondary" href="https://github.com/ariellam/GivingTreeApp" role="button">Github</a>
+			</p>
+			<div class="container text-left col-sm-8">
+				<p>
+				GivingTree allows users to keep track of what they are lending to people and to whom they owe something. Each user takes care of their own "karma" tree which grows or withers depending on the positive or negative transactions with others.
+				</p>
+				<p>
+				Developed using Android Studio, graphics designed in Adobe Photoshop.
+				</p>
+				<p>
+				Won <b>First Place at The Lady Hacks 2016</b> at York University.
+				</p>
+			</div>
+			<br>
+			</div>
+		</div>	
+	<div id="llp">
+		<img src="src/llp-withlogo.png" class="banner text-center img-fluid" alt="Pins">
+		<div class ="text-center info-on-white">
+			<br>
+			<h1 class="display-6 proj-titles">Lucky Last Press</h1>
+			<p>
+				<a class="btn btn-secondary" href="https://luckylastpress.com/" role="button">Website</a>
+			</p>
+			<div class="container text-left col-sm-8">
+				<p>
+				Lucky Last Press is an online store and design brand, dedicating to making cool accessories and pins.
+				</p>
+				<p>
+				After collecting pins and patches for a little over a year, I decided to combine my design and art experience into a business venture. Thus, LLP was born!
+				</p>
+			</div>
+			<br>
+		</div>
+
+	<div id="artwork" style="position: relative; top:-40px;">
+	</div>
+	<hr>
+	<div class="display-4 text-center info-on-white border-top" style="background-color:white; padding-top: 20px; padding-bottom: 20px">
+	Artwork
+	</div>
+	<p class="info-on-white text-center">
+		I've loved to draw all my life, and I've been illustrating with a Wacom tablet and Photoshop since I was 13.
+		<br>
+		Here lies some of my recent and favourite works.
+	</p>
+	<div class="row no-gutters">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/untitled-icon.png">
+			<a data-toggle="modal" data-target="#art-1">
+				<div class ="overlay">
+					<div class="hover-text">
+						Untitled Piece
+					</div>
+				</div>
+			</a>
+			<div class="modal fade" id="art-1" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Untitled (2017)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/untitled.png">
+			        <br>
+					<p>
+						<br>
+			        	Untitled piece. Mixed media.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/hacf.png">
+			<a data-toggle="modal" data-target="#art-2">
+				<div class ="overlay">
+					<div class="hover-text">
+						Cameron and Joe
+					</div>
+				</div>
+			</a>
+
+			<div class="modal fade" id="art-2" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Cameron and Joe (2017)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/hacf-full.png">
+			        <br>
+					<p>
+						<br>
+			        	Fan art for the AMC show Halt and Catch Fire.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/thursdaze.png">
+			<a data-toggle="modal" data-target="#art-3">
+			<div class ="overlay">
+				<div class="hover-text">
+					Thursday Sprites
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-3" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Thursday Sprites (2017)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/thursdaze-full.png">
+					<p>
+			        	Original sprites for an untitled iPhone game, featuring the titular character, Thursday.
+			        </p>
+			      </div>
+			      <div class="modal-footer">
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/cmbyn-grid.png">
+			<a data-toggle="modal" data-target="#art-4">
+			<div class ="overlay">
+				<div class="hover-text">
+					Elio and Oliver
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-4" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Elio and Oliver (2017)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/call me by your name.png">
+					<p>
+						<br>
+			        	Fan art of the 2017 movie Call Me By Your Name.
+			        </p>
+			      </div>
+			      <div class="modal-footer">
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div class="row no-gutters">
+		
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/bloom-grid.png">
+			<a data-toggle="modal" data-target="#art-5"><div class ="overlay">
+				<div class="hover-text">
+					Bloom
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-5" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content text-center">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Bloom - Unfinished (2017)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/bloom.png">
+			        <br>
+					<p>
+						<br>
+			        	Unfinished piece.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/rey-grid">
+			<a data-toggle="modal" data-target="#art-8"><div class ="overlay">
+				<div class="hover-text">
+					Rey & BB-8
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-8" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Rey & BB-8 (2016)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/rey.png">
+			        <br>
+					<p>
+			        	<br>
+			        	Fan art of Rey and BB-8 from Star Wars.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/cysj.png">
+			<a data-toggle="modal" data-target="#art-6"><div class ="overlay">
+				<div class="hover-text">
+					FSST Journal Cover
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-6" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content text-center">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">FSST Journal Cover (2015)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/25-28-PB-01.png">
+			        <br>
+					<p>
+						<br>
+			        	Featured on the cover of the <a href="http://journal.fsst.ca/jsst/index.php/jsst/issue/view/25">Journal for Student Science and Technology, Vol 8 No 2 (2015).
+			        	</a><br>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+			<img class="img-fluid" src="src/doodle 4 google snapshot.png">
+			<a data-toggle="modal" data-target="#art-7"><div class ="overlay">
+				<div class="hover-text">
+					Doodle 4 Google
+				</div>
+			</div>
+			</a>
+			<div class="modal fade" id="art-7" role="dialog">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			     <div class="modal-header">
+			        <h5 class="modal-title info-on-white">Doodle 4 Google (2014)</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <!-- Modal body -->
+			      <div class="modal-body info-on-white">
+			        <img class="img-fluid" src="src/Ariel Lam Doodle 4 Google.png">
+			        <br>
+					<p>
+			        	Original piece for the Doodle 4 Google Canada 2014 contest. 
+			        	<br>Awarded National Finalist and Regional Winner.
+			        	<br>
+			        	Created with the prompt "If I could invent anything, I would invent..."
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!--
+	<div id="graphic-design" class="text-center">
+		<div class="display-4 text-center info-on-white border-top" style="background-color:white; padding-top: 20px; padding-bottom: 20px">
+		Design
+		</div>
+		<div class="row no-gutters">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 grid-image" style="max-width:50%">
+				<img class="img-fluid" src="src/snapchat-grid.png">
+				<a data-toggle="modal" data-target="#gd-1">
+					<div class ="overlay">
+						<div class="hover-text">
+							Snapchat Geofilters
+						</div>
+					</div>
+				</a>
+			<div class="modal fade" id="gd-1" role="dialog">
+				  <div class="modal-dialog modal-lg" role="document">
+				    <div class="modal-content">
+				     <div class="modal-header">
+				        <h5 class="modal-title info-on-white">Snapchat Geofilters</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body info-on-white">
+				      	<div class="container align-items-center">
+				        <div class="row">	
+							<div class="col-sm-4">
+						   		<div id="iphone">
+								      <div id="carouselExampleControls" class="carousel slide mx-auto" data-interval="false" data-pause="true">
+								        <div class="carousel-inner">
+								          <div class="carousel-item active">
+								            <img class="d-block w-100" src="src/iphone/filter2.png" alt="First slide">
+								            <div class="carousel-caption">
+								                <h4>Kerrisdale Filter</h4>
+								                <p>Created for the Kerrisdale neighbourhood in Vancouver, BC.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter7.png" alt="Second slide">
+								            <div class="carousel-caption">
+								                <h4>Vancouver Model United Nations Social Filter</h4>
+								                <p>Commissioned by VMUN 2017.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter4.png" alt="Third slide">
+								            <div class="carousel-caption">
+								                <h4>Vancouver Model United Nations Filter</h4>
+								                <p>Unused work. Commisisoned by VMUN 2017.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter5.png" alt="Fourth slide">
+								            <div class="carousel-caption">
+								                <h4>CHS Spirit Week</h4>
+								                <p>For the 2017 Spirit Week at Crofton House.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter3.png" alt="Fifth slide">
+								            <div class="carousel-caption">
+								                <h4>Graduation BBQ Event</h4>
+								                <p>Created for the Grad BBQ of the CHS Class of 2016.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter6.png" alt="Sixth slide">
+								            <div class="carousel-caption">
+								                <h4>Crofton House School</h4>
+								                <p>Official geofilter of my former high school.</p>
+								            </div>
+								          </div>
+								          <div class="carousel-item">
+								            <img class="d-block w-100" src="src/iphone/filter1.png" alt="Seventh slide">
+								            <div class="carousel-caption">
+								                <h4>Birthday Commission</h4>
+								                <p></p>
+								            </div>
+								          </div>
+								        </div>
+								      </div>
+								</div>
+							</div>
+							<div class="col-sm-8">
+								<br>
+								<button type="button" class="btn btn-secondary" href="#carouselExampleControls" data-slide="prev">Prev</button>
+								<button type="button" class="btn btn-secondary" id="iphoneButton">Change Background</button>
+								<button type="button" class="btn btn-secondary" href="#carouselExampleControls" data-slide="next">Next</button>
+								<br><br><br>
+								<div id="filterText"></div>		
+								<br>
+	
+							</div>
+						</div>
+				      </div>
+				    </div>
+				  </div>
+				
+		</div>
+	
+
+	</div>
+	-->
+	</body>
+</html>
