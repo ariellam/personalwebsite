@@ -1,10 +1,22 @@
 
 var i = 1;
 $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status-text').fadeOut();
   $('#status').fadeOut(); // will first fade out the loading animation 
   $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
   $('body').delay(350).css({'overflow':'visible'});
 })
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
 
 $(document).ready(function() {
   $('.smooth').on('click', function(event) {
@@ -70,3 +82,31 @@ $(document).ready(function() {
   );    
 });
 
+jQuery(document).ready(function ($) {
+
+  $('#myCarousel').carousel({
+    interval: 5000
+  });
+
+  $('#carousel-text').html($('#slide-content-0').html());
+
+  //Handles the carousel thumbnails
+  $('[id^=carousel-selector-]').click(function () {
+    var id_selector = $(this).attr("id");
+    var id = id_selector.substr(id_selector.length - 1);
+    var id = parseInt(id);
+    $('#myCarousel').carousel(id);
+  });
+
+
+  // When the carousel slides, auto update the text
+  $('#myCarousel').on('slid', function (e) {
+    var id = $('.item.active').data('slide-number');
+    $('#carousel-text').html($('#slide-content-' + id).html());
+  });
+});
+
+$(".grid").masonry({
+  itemSelector: ".grid-item",
+  columnWidth: 400
+});

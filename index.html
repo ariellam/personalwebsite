@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<title>Ariel Lam </title>
+<title>Ariel Lam</title>
 
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
@@ -16,7 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans|Nunito|Muli|Playfair+Display|Caveat|Space+Mono" rel="stylesheet">
   <script src="javascript.js"></script>
-  
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
   <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
@@ -24,40 +25,288 @@
   <!-- loading screen -->
   <div id="preloader">
     <div id="status"></div>
+    
+    <p id="status-text"style="color: grey; position: absolute; top:50%; left: 50%; margin-left:-115px; margin-top: 0px;">loading... hold tight!</p>
   </div>
   
   <!-- top nav -->
-  <!-- <ul class="nav sticky-top navbar-light bg-light border-bottom border-secondary" style="z-index:3;">
+  <ul class="nav sticky-top navbar-light bg-light border-bottom border-secondary" style="z-index:3;">
     <li class="nav-item">
-      <a class="nav-link smooth" href="#home" style="color: #01cdff;">Home</a>
+      <a class="nav-link smooth" href="#home" style="color: slategray;">Home ♢</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link smooth" href="#projects" style="color: #01cdff; ">Projects</a>
+      <a class="nav-link smooth" href="#projects" style="color: slategray; ">Projects ♧</a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link smooth" href="#exp" style="color: slategray;">Experience ♢</a>
+    </li> -->
+    <li class="nav-item">
+      <a class="nav-link smooth" href="#design" style="color: slategray;">Design ♤</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link smooth" href="#artwork" style="color: #01cdff;">Art & Design</a>
+      <a class="nav-link smooth" href="#art" style="color: slategray;">Art ♡</a>
     </li>
-  </ul> -->
-  <div class="row">
-    <div class="col-md-1 col-lg-2 col-xl-2">
+  </ul>
+
+  <!-- HOME -->
+    <div class="row align-items-center justify-content-center profile" id="home">
+      <div class="profile-text">
+        <h1 class="display-3" style="margin-bottom:16px">Ariel Lam</h1>
+        <p>
+          Hi! I'm Ariel, and I'm 2A Software Engineering at University of Waterloo.
+          <br><br>
+          I'm passionate about design and mobile development.
+          <br><br>
+          In my spare time, I love going to hackathons, volunteering, drawing, and listening to music.
+        </p>
+      </div>
+      <img src="src/flowers_profile_cropped.jpg" id="portrait" />
     </div>
-    <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 header">
-      <h1 class="display-3" style="margin-bottom:16px">Ariel Lam</h1>
-      <p>
-        2A Software Engineering @ UWaterloo.
-        <br>
-        My site is currently under construction, but you can check out
-        my <a href="https://www.linkedin.com/in/arielclam/">LinkedIn</a> or <a href="https://github.com/ariellam">Github</a> for more about me! <br>
-        <!-- <a href="" class="links">Projects</a> | <a href="" class="links">Art & Design</a> | <a href="" class="links">Experience</a> -->
-      </p>
-    </div>
-    <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 text-center">
-      <img src="src/me.png" id="portrait" />
-      
-    </div>
-    <div class="col-md-1 col-lg-2 col-xl-2">
+  <div class="container-fluid">
+  <!-- PROJECTS -->
+    <div class="section" id="projects">
+      <h1 class="display-6" style="margin-top:30px; margin-bottom:30px">Projects</h1>
+      <div class="row no-gutters">
+          <div class="col-4 grid-project" style="padding: 5px">
+            <div class="card" style="width: 100%">
+              <img class="card-img-top card-img" src="src/lift-grid.png" style="position: absolute">
+              <img class="card-img-top" src="src/lift-hover-grid.png" alt="Lift Image">
+              <div class="card-body">
+              <h3 class="card-title">Lift</h3>
+              <h5 class="card-subtitle mb-2 text-muted">Finalist at Hack the North 2018</h5>
+                <p class="card-text">
+                  Fitbit Ionic app to track repetitions during workouts. 
+                  My focus was creating and designing the user interface of the app
+                  and the design of the product and dashboard.
+                  <br>
+                  <br>
+                  <a href="https://github.com/ariellam/lift" class="card-link">Github</a><a href="https://devpost.com/software/lift-ilm43c" class="card-link">Devpost</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 grid-project" style="padding: 5px">
+            <div class="card" style="width: 100%">
+              <img class="card-img-top card-img" src="src/givingtree-grid.png" style="position: absolute">
+              <img class="card-img-top" src="src/givingtree-grid-hover.png" alt="Lift Image">
+              <div class="card-body">
+                <h3 class="card-title">GivingTree</h3>
+                <h5 class="card-subtitle mb-2 text-muted">Winner at The Lady Hacks 2016</h5>
+                <p class="card-text">
+                  Android app to track lending and borrowing among your friends.
+                  Created the home screen graphics, as well as the core growing mechanism for
+                  the tree based on positive transactions. 
+                  <br>
+                  <br>
+                  <a href="https://github.com/ariellam/GivingTreeApp" class="card-link">Github</a>
+                  <a href="https://devpost.com/software/givingtreeapp" class="card-link">Devpost</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 grid-project" style="padding: 5px">
+            <div class="card" style="width: 100%">
+              <img class="card-img-top card-img" src="src/tama-grid.png" style="position: absolute">
+              <img class="card-img-top" src="src/Grid-Tama.gif" alt="Lift Image">
+              <div class="card-body">
+                <h3 class="card-title">Tamagotchi</h3>
+                <h5 class="card-subtitle mb-2 text-muted">SE 101 Project</h5>
+                <p class="card-text">
+                  Virtual pet game using a Tiva Microcontroller, written in C++. Created bitmap
+                  sprites, graphics, and a pet level system. Created a Bop
+                  It minigameusing the hardware's buttons and sensors.
+                  <br>
+                  <br>
+                  <a href="https://github.com/ariellam/tamagotchi" class="card-link">Github</a>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
+  <!-- EXPERIENCE -->
+    <!-- <div class="section" id="exp">
+      <h1 class="display-6" style="margin-top:30px; margin-bottom:30px">Experience</h1>
+    </div> -->
+
+  <!-- DESIGN-->
+    <div class="section" id="design">
+      <h1 class="display-6" style="margin-top:30px;">Design</h1>
+      <p style="padding-left: 5px; margin-bottom:30px"> Click on the pictures to see an interactive prototype!</p>
+        <div class="row no-gutters">
+          <div class="col" style="padding: 5px">
+            <a data-toggle="modal" data-target="#bottleless">
+              <img class="img-fluid" src="src/bottleless-grid.png">
+            </a>
+            <div class="modal fade" id="bottleless" role="dialog" >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <!-- Modal body -->
+                    <div class="row justify-content-center">
+                      <iframe width="271" height="560" src="https://xd.adobe.com/embed/445f6cb2-3ba7-4004-834d-634c17f2ecf8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding: 5px">
+            <a data-toggle="modal" data-target="#edumatch">
+              <img class="img-fluid" src="src/edumatch-grid.png">
+            </a>
+            <div class="modal fade" id="edumatch" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <!-- Modal body -->
+                  <div class="row justify-content-center">
+                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/9eb119b7-2fb9-494b-94b0-d509bfd6a300" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+        <!-- <div class="row no-gutters">         -->
+          <div class="col" style="padding: 5px">
+            <a data-toggle="modal" data-target="#sweater">
+              <img class="img-fluid" src="src/sweather-grid.png">
+            </a>
+            <div class="modal fade" id="sweater" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                  <div class="row justify-content-center">
+                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/db3b5551-3e84-4226-8a0f-65ab8c38ac54" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-6" style="padding: 5px">
+            <img class="img-fluid" src="src/snapchat-grid.png">
+          </div> -->
+        </div>
+    </div>
+
+  <!-- ART -->
+      <div class="section" id="art">
+        <h1 class="display-6" style="margin-bottom:30px">Artwork</h1>
+        <div class="row no-gutters">
+          <div class="col-8 grid-image" style="padding: 5px">
+            <img class="img-fluid" src="src/bunchkids-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>Bunch App of the Day Feature</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Apple App Store assets for Bunch.
+                    <br>
+                    Digital, June 2018.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="col-4 grid-image" style="padding: 5px">
+            <img class="img-fluid" src="src/american-beauty-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>American Beauty</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Personal work.
+                    <br> Digital, July 2018.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-4 grid-image" style="padding: 5px">
+              <img class="img-fluid" src="src/catfight-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>Unreleased Game - Concept Art</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Character sheets, storyboards, and digital assets created for an upcoming project from Bunch.
+                    <br> Digital, July 2018.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 grid-image" style="padding: 5px">
+              <img class="img-fluid" src="src/Venice-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>Venice</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Personal work.
+                    <br> Gouache on watercolour paper, July 2018.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-8 grid-image" style="padding: 5px">
+              <img class="img-fluid" src="src/thursday-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>Thursdaze Character Sprites</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Character designs and running sprites for an upcoming iOS game I'm working on. 
+                    Stay tuned!
+                    <br> Digital, July 2018.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 grid-image" style="padding: 5px">
+              <img class="img-fluid" src="src/d4g-grid.png">
+              <div class="overlay">
+                <div class="hover-text">
+                  <h3>Doodle 4 Google</h3>
+                  <div class="description-divider"></div>
+                  <p>
+                    Created for the Doodle 4 Google 2014 contest.
+                    <br> Digital, 2013.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+
+  <div class="d-flex flex-column justify-content-center align-items-center bg-light footer">
+    <div>
+      <blockquote class="blockquote">
+        <p class="mb-0">"I want to build something that makes people fall in love."</p>
+        <footer class="blockquote-footer">Cameron Howe,
+          <cite title="Source Title">Halt and Catch Fire</cite>
+        </footer>
+      </blockquote>
+    </div>
+    <div>
+      <a href="mailto:ariel.lam8@gmail.com">Contact</a> |
+      <a href="https://www.linkedin.com/in/arielclam/">LinkedIn</a> |
+      <a href="https://github.com/ariellam">Github</a> | 
+      <a href="https://devpost.com/arielclam">Devpost</a>
+    </div>
   </div>
 </body>
 
