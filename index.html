@@ -4,8 +4,9 @@
 <title>Ariel Lam</title>
 
 <head>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="recliner.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
@@ -139,65 +140,105 @@
       <h1 class="display-6" style="margin-top:30px;">Design</h1>
       <p style="padding-left: 5px; margin-bottom:30px"> Click on the pictures to view an interactive prototype!</p>
         <div class="row no-gutters">
-          <div class="col" style="padding: 5px">
-            <a data-toggle="modal" data-target="#bottleless">
-              <img class="img-fluid" src="src/bottleless-grid.png">
-            </a>
+          <div class="col-4 grid-image" style="padding: 5px">
+            <img class="img-fluid" src="src/bottleless-grid.png">
+            <div class="overlay">
+              <div class="hover-text">
+                <p>
+                  An app to track your disposable drink consumption.
+                  <br>June 2018.
+                </p>
+                <div class="description-divider"></div>
+                <a data-toggle="modal" data-target="#bottleless">
+                  View prototype
+                </a>
+              </div>
+            </div>
             <div class="modal fade" id="bottleless" role="dialog" >
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <!-- Modal body -->
                     <div class="row justify-content-center">
-                      <iframe width="271" height="560" src="https://xd.adobe.com/embed/445f6cb2-3ba7-4004-834d-634c17f2ecf8" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="271" height="560" src="https://xd.adobe.com/embed/445f6cb2-3ba7-4004-834d-634c17f2ecf8" frameborder="0" allowfullscreen Lazy-load></iframe>
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
                     </button>
+                    <a  target="_blank" href="https://xd.adobe.com/view/445f6cb2-3ba7-4004-834d-634c17f2ecf8/">
+                      <h6 style="position:absolute; right: 0px; padding-right: 20px; margin-top: -30px;">Open in new window</h6>
+                    </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col" style="padding: 5px">
-            <a data-toggle="modal" data-target="#edumatch">
-              <img class="img-fluid" src="src/edumatch-grid.png">
-            </a>
+          <div class="col-4 grid-image" style="padding: 5px">
+            <img class="img-fluid" src="src/edumatch-grid.png">
+            <div class="overlay">
+              <div class="hover-text">
+                <p>
+                  A social app connecting post-secondary students with professional mentors.
+                  <br>
+                  Won Best Use of Adobe Creative Cloud at Eduhacks.
+                  <br>
+                  September 2017.
+                </p>
+                <div class="description-divider"></div>
+                <a data-toggle="modal" data-target="#edumatch">
+                  View prototype
+                </a>
+              </div>
+            </div>
             <div class="modal fade" id="edumatch" role="dialog">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <!-- Modal body -->
                   <div class="row justify-content-center">
-                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/9eb119b7-2fb9-494b-94b0-d509bfd6a300" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/9eb119b7-2fb9-494b-94b0-d509bfd6a300" frameborder="0" allowfullscreen lazy-load></iframe>
                   </div>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
                   </button>
+                  <a  target="_blank" href="https://xd.adobe.com/view/9eb119b7-2fb9-494b-94b0-d509bfd6a300">
+                      <h6 style="position:absolute; right: 0px; padding-right: 20px; margin-top: -30px;">Open in new window</h6>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="row no-gutters">         -->
-          <div class="col" style="padding: 5px">
-            <a data-toggle="modal" data-target="#sweater">
-              <img class="img-fluid" src="src/sweather-grid.png">
-            </a>
-            <div class="modal fade" id="sweater" role="dialog">
+          <div class="col-4 grid-image" style="padding: 5px">
+            <img class="img-fluid" src="src/sweather-grid.png">
+            <div class="overlay">
+              <div class="hover-text">
+                <p>
+                  A simple weather app that recommends you outfits from your history.
+                  <br>Winter 2018.
+                </p>
+                <div class="description-divider"></div>
+                <a data-toggle="modal" data-target="#sweather">
+                  View prototype
+                </a>
+              </div>
+            </div>
+            <div class="modal fade" id="sweather" role="dialog">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <!-- Modal body -->
                   <div class="row justify-content-center">
-                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/db3b5551-3e84-4226-8a0f-65ab8c38ac54" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="271" height="560" src="https://xd.adobe.com/embed/db3b5551-3e84-4226-8a0f-65ab8c38ac54" frameborder="0" allowfullscreen lazy-load></iframe>
                   </div>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <h6 style="position:absolute; padding-left: 20px;margin-top: -30px;">Close</h6>
                   </button>
+                  <a target="_blank" href="https://xd.adobe.com/view/db3b5551-3e84-4226-8a0f-65ab8c38ac54">
+                    <h6 style="position:absolute; right: 0px; padding-right: 20px; margin-top: -30px;">Open in new window</h6>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
           <!-- <div class="col-6" style="padding: 5px">
             <img class="img-fluid" src="src/snapchat-grid.png">
           </div> -->
+          </div>
         </div>
     </div>
 
