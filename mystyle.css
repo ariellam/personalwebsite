@@ -3,7 +3,7 @@ html, body{
     overflow-x: hidden;
     width: 100%;
 	background-color: white;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 12pt;
     color: black;	
 }
@@ -37,9 +37,36 @@ html, body{
   /* is width and height divided by two */
 }
 
-/* h1, h2, h3, h4, h5, h6{
-	font-family: 'Caveat', sans-serif; 
-} */
+.nav-item {
+    padding-left: 23px; 
+    padding-right: 23px;
+}
+.nav-link {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 18px;
+    color: black;
+    -webkit-transition: 0;
+    transition: 0;
+}
+.nav-link:hover {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 18px; 
+    text-transform: uppercase;
+    color: black;
+    -webkit-transition: 0;
+    transition: 0;
+}
+
+.nav-link:visited {
+    color: black;
+    -webkit-transition: 0;
+    transition: 0;
+}
+
+.active {
+    text-transform: uppercase;
+}
+
 a:link {
     color: grey;
     -webkit-transition:0.2s ease-in-out; 
@@ -68,7 +95,8 @@ a:active {
 }
 
 .display-3{
-    font-family: 'Work Sans', monospace; 
+    font-family: 'Major Mono Display', monospace;
+    font-size: 48px;
 }
 h1{
     font-family: 'Work Sans', monospace; 
@@ -125,16 +153,20 @@ h1{
 }
 
 .profile-text {
-    width: 400px;
-    font-family: 'Work Sans', monospace;  
+    width: 341px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;  
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; 
 }
 
 #portrait{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 194px;
+    height: 194px;
     margin: 20px;
-    border: 5px solid #d9eaf3;
+    box-shadow: 7px 7px 0px lightblue;
 }
 #home {
     margin-top: -50px;

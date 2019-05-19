@@ -15,7 +15,7 @@
   
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans|Nunito|Muli|Playfair+Display|Caveat|Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans|Caveat|Space+Mono|Major+Mono+Display|Inconsolata" rel="stylesheet">
   <script src="javascript.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 
@@ -26,46 +26,45 @@
 </head>
 
 <body>
-  <!-- loading screen -->
+  <!-- loading screen
   <div id="preloader">
     <div id="status"></div>
     
     <p id="status-text"style="color: grey; position: absolute; top:50%; left: 50%; margin-left:-115px; margin-top: 0px;">loading... hold tight!</p>
-  </div>
+  </div> -->
   
   <!-- top nav -->
-  <ul class="nav sticky-top navbar-light bg-light border-bottom border-secondary" style="z-index:3;">
-    <li class="nav-item">
-      <a class="nav-link smooth" href="#home" style="color: slategray;">Home ♢</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link smooth" href="#projects" style="color: slategray; ">Projects ♧</a>
-    </li>
-    <!-- <li class="nav-item">
-      <a class="nav-link smooth" href="#exp" style="color: slategray;">Experience ♢</a>
-    </li> -->
-    <li class="nav-item">
-      <a class="nav-link smooth" href="#design" style="color: slategray;">Design ♤</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link smooth" href="#art" style="color: slategray;">Art ♡</a>
-    </li>
-  </ul>
-
+    <ul id="top-menu" class="navbar-nav mr-auto" style="z-index:3;">
+      <li class="nav-item">
+        <a class="nav-link smooth" href="#home">top</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link smooth" href="#projects">projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link smooth" href="#design">design</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link smooth" href="#art">art</a>
+      </li>
+    </ul>
   <!-- HOME -->
     <div class="row align-items-center justify-content-center profile" id="home">
       <div class="profile-text">
-        <h1 class="display-3" style="margin-bottom:16px">Ariel Lam</h1>
+        <h1 class="display-3" style="margin-bottom:16px">ariel lam</h1>
         <p>
-          Hi! I'm Ariel, and I'm a 2A Software Engineering student at University of Waterloo.
-          I'm passionate about design, front-end and mobile development.
-          In my spare time, I love going to 
-          <a href="https://devpost.com/arielclam">hackathons</a>, 
+          Hi! I'm Ariel, and I'm a 2B Software Engineering student at the University of Waterloo. 
+          <br><br>
+          I'm passionate about mobile and front-end development, design, and user experiences.
+          <br><br>
+          Currently a Software Engineering Intern at <a href="https://www.tribalscale.com/">TribalScale</a>. Previously at <a href="https://www.bunch.live/">Bunch</a> and RBC.
+          <!-- <a href="https://devpost.com/arielclam">hackathons</a>, 
           <a href="https://www.canadalearningcode.ca/whos-on-our-site/">volunteering</a>, drawing, and 
-          <a href="https://open.spotify.com/user/fluxue/playlist/3z9DguFEZgpBDgxPqLpu0z?si=qe3WX4d-RlmfBirlzARgoQ">listening to music</a>.
+          <a href="https://open.spotify.com/user/fluxue/playlist/3z9DguFEZgpBDgxPqLpu0z?si=qe3WX4d-RlmfBirlzARgoQ">listening to music</a>. -->
         </p>
+        <div id="header"></div>
       </div>
-      <img src="src/me-winter.jpeg" id="portrait" />
+      <img src="src/newpic.png" id="portrait" />
     </div>
   <div class="container-fluid">
   <!-- PROJECTS -->
@@ -300,9 +299,14 @@
     <div>
       <a href="mailto:ariel.lam8@gmail.com">Contact</a> |
       <a href="https://www.linkedin.com/in/arielclam/">LinkedIn</a> |
-      <a href="https://github.com/ariellam">Github</a>
+      <a href="https://github.com/ariellam">Github</a> | 
+      <a href="https://twitter.com/aireclair">Resume</a>
     </div>
   </div>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="components/header.js"></script>
 </body>
 
 </html>
