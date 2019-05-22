@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;  
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;   
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+a:hover {
+  color: grey;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
