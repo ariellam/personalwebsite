@@ -19,10 +19,10 @@ class HeaderMenu extends Component {
   render () {
     return (
       <MenuWrapper>
-        <HeaderSection text='Home'/>
-        <HeaderSection text='Projects'/>
-        <HeaderSection text='Art'/>
-        <HeaderSection text='Design'/>
+        <HeaderSection text='Home' header="#home"/>
+        <HeaderSection text='Projects' header="#projects"/>
+        <HeaderSection text='Art' header="#gallery"/>
+        <HeaderSection text='Design' header="#design"/>
       </MenuWrapper>
     )
   }

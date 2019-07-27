@@ -11,6 +11,7 @@ function App() {
       <HeaderMenu/>
       <Profile/>
       <Projects/>
+      {/* <FooterMenu/> */}
       <PhotoGallery/>
     </div>
   );

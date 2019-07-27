@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const ContactButtonsWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   width: 90%;
 `
 
@@ -20,6 +19,7 @@ const ContactButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 `
 
 class ContactButtons extends Component {

@@ -34,7 +34,7 @@ class HeaderSection extends Component {
   render () {
     return (
       <div>
-        <AnchorLink href="#projects"><SectionText>{this.props.text}</SectionText></AnchorLink>
+        <AnchorLink href={this.props.header}><SectionText>{this.props.text}</SectionText></AnchorLink>
       </div>
     )
   }

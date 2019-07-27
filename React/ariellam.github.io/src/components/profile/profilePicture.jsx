@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import PictureURL from '../../assets/newpic.png'
+import PictureURL from '../../assets/profile-summer.jpeg'
 
 const Picture = styled.img.attrs({
     src: PictureURL

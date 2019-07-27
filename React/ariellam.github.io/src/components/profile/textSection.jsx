@@ -7,7 +7,7 @@ const TextSectionWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 25vw;
+  width: 360px;
 `
 const Name = styled.div`
   font-family: 'Major Mono Display', monospace;
@@ -33,8 +33,7 @@ class TextSection extends Component {
           <br/><br/>
           I'm passionate about mobile and front-end development, design, and user experiences.
           <br/><br/>
-          Currently looking for Fall 2019 internship opportunities. Let's get in touch!
-          <br/><br/>
+          Incoming Software Engineering Intern at <a href="https://www.inkling.com/">Inkling</a>. Previously at TribalScale and Bunch Studios.
         </AboutMe>
         <ContactButtons/>
       </TextSectionWrapper>

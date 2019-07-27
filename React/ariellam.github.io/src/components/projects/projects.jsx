@@ -4,9 +4,10 @@ import ProjectCell from './projectCell'
 import ProjectsData from './projectsData'
 
 const SectionWrapper = styled.div`
+  padding-top: 10vh;
   display: flex; 
   flex-direction: column;
-  width: 80vw;
+  width: 90vw;
 
 `
 const ProjectCellsContainer = styled.div`
@@ -37,12 +38,7 @@ class Projects extends Component {
       const project = ProjectsData[projectNames[i]]
       projectArray.push(
         <ProjectCell
-          title={project.title}
-          subtitle={project.subtitle}
-          description={project.description}
-          devpost={project.devpost}
-          github={project.github}
-          image={project.image}
+          project={project}
         />
       )
     }
@@ -50,8 +46,8 @@ class Projects extends Component {
   }
   render () {
     return (
-      <SectionWrapper>
-        <SectionHeader id='projects'>projects</SectionHeader>
+      <SectionWrapper id='projects'>
+        <SectionHeader>projects</SectionHeader>
         <ProjectCellsContainer>
           {this.renderProjectCells()}
         </ProjectCellsContainer>
