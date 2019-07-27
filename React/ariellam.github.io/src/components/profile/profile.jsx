@@ -34,10 +34,10 @@ class Profile extends Component {
             <TextSection/>
             <ProfilePicture/>
           </ProfileWrapperDesktop>
-          <ProfileWrapperMobile>
+          {/* <ProfileWrapperMobile>
             <ProfilePicture/>
             <TextSection/>
-          </ProfileWrapperMobile>
+          </ProfileWrapperMobile> */}
       </>
     )
   }

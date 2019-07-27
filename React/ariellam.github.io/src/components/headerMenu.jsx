@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import HeaderSection from './headerSection'
 import styled from 'styled-components'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const MenuWrapper = styled.div`
   top: 0px;

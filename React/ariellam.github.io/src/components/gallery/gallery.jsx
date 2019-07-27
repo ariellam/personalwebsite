@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import StackGrid from 'react-stack-grid'
 import photos from './photos'
 import GalleryCell from './galleryCell'
+
 const GalleryWrapper = styled.div`
   padding-top: 10vh;
   width: 90vw;
