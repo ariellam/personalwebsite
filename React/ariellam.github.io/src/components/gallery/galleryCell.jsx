@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import GalleryDescription from './galleryDescription';
+import Blur from 'react-blur'
 
 const GalleryCellContainer = styled.div`
 `
@@ -43,9 +44,12 @@ class GalleryCell extends Component {
   render () {
     return (
       <GalleryCellContainer>
-        <Photo src={this.props.data.src}/>
+        <Blur  enableStyles>
+          <Photo src={this.props.data.src}/>
+        </Blur>
         <Overlay>
           <HoverOverlay>
+
             <GalleryDescription 
               title={this.props.data.title}
               description={this.props.data.description}

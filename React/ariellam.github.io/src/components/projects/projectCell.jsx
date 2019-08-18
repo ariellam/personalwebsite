@@ -4,8 +4,6 @@ import ProjectButtons from './projectButtons';
 import ProjectDescription from './projectDescription'
 
 const ProjectCellContainer = styled.div`
-  width: 300px;
-  height: 400px;
   display: flex;
   flex-direction: column;
 `

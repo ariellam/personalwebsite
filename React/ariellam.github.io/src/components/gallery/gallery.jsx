@@ -3,23 +3,12 @@ import styled from 'styled-components'
 import StackGrid from 'react-stack-grid'
 import photos from './photos'
 import GalleryCell from './galleryCell'
+import SectionTitle from '../sectionTitle';
 
 const GalleryWrapper = styled.div`
   padding-top: 10vh;
   width: 90vw;
 `
-
-const SectionHeader = styled.div`
-  font-family: Major Mono Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 48px;
-  color: #000000;
-  text-shadow: 2px 2px 0px #FFB800;
-  margin: 2vw;
-`
-
 
 class PhotoGallery extends Component {
   renderGalleryCells = () => {
@@ -41,7 +30,7 @@ class PhotoGallery extends Component {
     return (
       <>
         <GalleryWrapper id='gallery'>         
-          <SectionHeader >art</SectionHeader>
+          <SectionTitle title='art'/>
           <StackGrid columnWidth={400}>
             {this.renderGalleryCells()}
           </StackGrid>

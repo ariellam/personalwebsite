@@ -10,9 +10,9 @@ const TextSectionWrapper = styled.div`
   width: 360px;
 `
 const Name = styled.div`
-  font-family: 'Major Mono Display', monospace;
-  font-size: 48px;
-  text-transform: lowercase;
+  font-family: 'Work Sans', monospace;
+  font-size: 68px;
+  font-weight: 550;
 `
 
 const AboutMe = styled.p`
@@ -27,7 +27,7 @@ class TextSection extends Component {
   render () {
     return (
       <TextSectionWrapper>
-        <Name>Ariel Lam</Name>
+        <Name>ariel lam</Name>
         <AboutMe>
           Hi! I'm Ariel, and I'm a Software Engineering student at the University of Waterloo.
           <br/><br/>

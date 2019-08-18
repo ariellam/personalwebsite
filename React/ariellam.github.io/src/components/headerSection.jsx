@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const SectionText = styled.div`
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: lowercase;

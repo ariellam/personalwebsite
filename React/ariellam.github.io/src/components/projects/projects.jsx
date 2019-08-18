@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import ProjectCell from './projectCell'
 import ProjectsData from './projectsData'
+import SectionTitle from '../sectionTitle'
+import StackGrid from 'react-stack-grid'
 
 const SectionWrapper = styled.div`
   padding-top: 10vh;
@@ -18,21 +20,9 @@ const ProjectCellsContainer = styled.div`
   margin: 20px;
 `
 
-const SectionHeader = styled.div`
-  font-family: Major Mono Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 48px;
-  color: #000000;
-  text-shadow: 2px 2px 0px #FFB800;
-  margin: 2vw;
-`
-
 class Projects extends Component {
   renderProjectCells = () => {
     const projectNames = ['lift', 'describe', 'givingtree']
-
     var projectArray = []
     for(var i = 0; i < projectNames.length; i++) {
       const project = ProjectsData[projectNames[i]]
@@ -47,10 +37,12 @@ class Projects extends Component {
   render () {
     return (
       <SectionWrapper id='projects'>
-        <SectionHeader>projects</SectionHeader>
-        <ProjectCellsContainer>
-          {this.renderProjectCells()}
-        </ProjectCellsContainer>
+        <SectionTitle title='projects'/>
+        {/* <ProjectCellsContainer> */}
+          <StackGrid columnWidth={400}>
+            {this.renderProjectCells()}
+          </StackGrid>
+        {/* </ProjectCellsContainer> */}
       </SectionWrapper>
     )
   }

@@ -14,15 +14,11 @@ const ContactButtonsWrapper = styled.div`
   flex-direction: row;
   width: 90%;
   align-items: center;
-  
 `
 
 const ContactButton = styled.a`
-  width: 70px;
-  height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 14px;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Work Sans', monospace;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
