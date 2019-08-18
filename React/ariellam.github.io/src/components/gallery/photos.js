@@ -16,7 +16,7 @@ export default {
   catfight: {
     key: "catfight",
     src: "https://i.imgur.com/sihuEgl.png",
-    title: "Unreleased Game - Concept Art",
+    title: "Unreleased Game Concept Art",
     description: "Character sheets, storyboards, and digital assets created for a mobile multiplayer game.",
     format: "Digital, July 2018"
   },

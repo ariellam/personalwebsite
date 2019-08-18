@@ -5,14 +5,13 @@ const ProjectDescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 15px;
-
 `
 
 const ProjectTitle = styled.div`
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Work Sans', monospace;
   font-size: 24px;  
   font-style: bold;
+  font-weight: 600;
 `
 
 const ProjectText = styled.div`

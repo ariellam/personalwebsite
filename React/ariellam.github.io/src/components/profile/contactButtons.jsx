@@ -1,13 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import twitter from '../../assets/twitter-icon.png'
-import linkedin from '../../assets/linkedin-icon.png'
-import mail from '../../assets/mail-icon.png'
-
-const Icon = styled.img`
-  height: 20px;
-  margin-right: 10px;
-`
 
 const ContactButtonsWrapper = styled.div`
   display: flex;
@@ -35,9 +27,11 @@ class ContactButtons extends Component {
         <ContactButton href="">Resume</ContactButton>
         <ContactButton href="https://github.com/ariellam">Github</ContactButton>
         <ContactButton href="https://www.linkedin.com/in/arielclam/">LinkedIn</ContactButton>
-        <Icon src={twitter} alt="Twitter" />
+        <ContactButton href="https://www.twitter.com/aireclair/">Twitter</ContactButton>
+
+        {/* <Icon src={twitter} alt="Twitter" />
         <Icon src={mail} alt="Email" />
-        <Icon src={linkedin} alt="Linkedin" />
+        <Icon src={linkedin} alt="Linkedin" /> */}
 
       </ContactButtonsWrapper>
     )

@@ -10,7 +10,7 @@ const GalleryWrapper = styled.div`
   width: 90vw;
 `
 
-class PhotoGallery extends Component {
+class Gallery extends Component {
   renderGalleryCells = () => {
     const imageNames = ['christine-valentine','bunch-kids', 'vodka-cran', 'american-beauty', 'thursdaze', 'catfight', 'google-doodle']
     var projectArray = []
@@ -40,4 +40,4 @@ class PhotoGallery extends Component {
   }
 }
 
-export default PhotoGallery
+export default Gallery

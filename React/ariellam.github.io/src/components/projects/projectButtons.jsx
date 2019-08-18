@@ -8,18 +8,14 @@ const ProjectButtonsWrapper = styled.div`
 `
 
 const ProjectButton = styled.a`
-  width: 70px;
-  height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 14px;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Work Sans', monospace;
   font-style: normal;
-  font-weight: normal;
   line-height: normal;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15px;
+  margin-right: 20px;
 `
 
 class ProjectButtons extends Component {

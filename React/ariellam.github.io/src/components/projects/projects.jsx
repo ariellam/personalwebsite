@@ -12,13 +12,6 @@ const SectionWrapper = styled.div`
   width: 90vw;
 
 `
-const ProjectCellsContainer = styled.div`
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px;
-`
 
 class Projects extends Component {
   renderProjectCells = () => {
@@ -38,11 +31,9 @@ class Projects extends Component {
     return (
       <SectionWrapper id='projects'>
         <SectionTitle title='projects'/>
-        {/* <ProjectCellsContainer> */}
           <StackGrid columnWidth={400}>
             {this.renderProjectCells()}
           </StackGrid>
-        {/* </ProjectCellsContainer> */}
       </SectionWrapper>
     )
   }

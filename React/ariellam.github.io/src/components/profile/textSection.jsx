@@ -8,10 +8,13 @@ const TextSectionWrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   width: 360px;
+  @media (max-width: 768px) {
+    width: 300px;
+  }
 `
 const Name = styled.div`
   font-family: 'Work Sans', monospace;
-  font-size: 68px;
+  font-size: 64px;
   font-weight: 550;
 `
 
@@ -27,7 +30,7 @@ class TextSection extends Component {
   render () {
     return (
       <TextSectionWrapper>
-        <Name>ariel lam</Name>
+        <Name>Ariel Lam</Name>
         <AboutMe>
           Hi! I'm Ariel, and I'm a Software Engineering student at the University of Waterloo.
           <br/><br/>

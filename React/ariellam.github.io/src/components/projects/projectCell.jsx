@@ -9,11 +9,13 @@ const ProjectCellContainer = styled.div`
 `
 
 const ProjectDetails = styled.div`
-  height: 200px;
-  border: 1px solid rgba(0,0,0,0.5);
+  height: 150px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 `
 const HeaderImage = styled.img`
   width: 100%;

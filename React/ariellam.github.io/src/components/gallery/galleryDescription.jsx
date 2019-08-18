@@ -9,9 +9,9 @@ const ProjectDescriptionContainer = styled.div`
 `
 
 const ArtTitle = styled.div`
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Work Sans', monospace;
   font-size: 24px;  
-  font-style: bold;
+  font-weight: 600;
 `
 
 const ArtDescription = styled.div`

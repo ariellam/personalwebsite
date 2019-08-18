@@ -11,7 +11,8 @@ const MenuWrapper = styled.div`
   justify-content: flex-start;
   width: 100vw;
   height: 60px;
-  background-image: linear-gradient(white , rgba(0,0,0,0));
+  background-color: white;
+  z-index: 1000;
 `
 
 class HeaderMenu extends Component {
@@ -22,6 +23,7 @@ class HeaderMenu extends Component {
         <HeaderSection text='Projects' header="#projects"/>
         <HeaderSection text='Art' header="#gallery"/>
         <HeaderSection text='Design' header="#design"/>
+        <HeaderSection text='Experience' header="#experience"/>
       </MenuWrapper>
     )
   }
