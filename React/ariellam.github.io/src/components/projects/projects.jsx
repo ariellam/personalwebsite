@@ -10,7 +10,6 @@ const SectionWrapper = styled.div`
   display: flex; 
   flex-direction: column;
   width: 90vw;
-
 `
 
 class Projects extends Component {
