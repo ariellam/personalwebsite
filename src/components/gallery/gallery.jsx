@@ -7,7 +7,10 @@ import SectionTitle from '../sectionTitle';
 
 const GalleryWrapper = styled.div`
   width: 90vw;
-`
+  @media (max-width: 768px) {
+    width: 400px;
+  }
+`;
 
 class Gallery extends Component {
   renderGalleryCells = () => {

@@ -6,11 +6,14 @@ import SectionTitle from '../sectionTitle'
 import StackGrid from 'react-stack-grid'
 
 const SectionWrapper = styled.div`
-  display: flex; 
+  display: flex;
   flex-direction: column;
   width: 90vw;
   min-height: 600px;
-`
+  @media (max-width: 768px) {
+    width: 400px;
+  }
+`;
 
 class Projects extends Component {
   renderProjectCells = () => {

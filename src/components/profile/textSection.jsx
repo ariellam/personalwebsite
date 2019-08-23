@@ -13,10 +13,13 @@ const TextSectionWrapper = styled.div`
   }
 `
 const Name = styled.div`
-  font-family: 'Work Sans', monospace;
+  font-family: "Work Sans", monospace;
   font-size: 64px;
   font-weight: 600;
-`
+  @media (max-width: 768px) {
+    font-size: 56px;
+  }
+`;
 
 const AboutMe = styled.p`
   font-family: 'Inconsolata', monospace;
