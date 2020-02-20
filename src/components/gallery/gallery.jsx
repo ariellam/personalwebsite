@@ -32,7 +32,7 @@ class Gallery extends Component {
     return (
       <>
         <GalleryWrapper id="gallery">
-          <SectionTitle title="art" />
+          <SectionTitle title="Art" />
           <StackGrid
             columnWidth={380}
             monitorImagesLoaded={true}

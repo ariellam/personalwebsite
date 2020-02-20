@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { VerticalTimelineElement } from "react-vertical-timeline-component"
+import 'react-vertical-timeline-component/style.min.css';
 
 const ExpCellContainer = styled.div`
   margin: 20px;
@@ -64,7 +66,6 @@ const TechStack = styled.ul`
 const Position = styled.div`
   font-size: 14pt;
   font-family: "Work Sans", monospace;
-  margin-bottom: -2px;
 `
 
 const Line = styled.div`
@@ -100,6 +101,19 @@ const Description = styled.ul`
   line-height: 100%;
 `;
 
+const Logo = styled.img`
+  width: 50px;
+  height: 50px;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  @media (min-width: 1170px) {
+    width: 70px;
+    height: 70px;
+  }
+`;
+
 class ExperienceCell extends Component {
   renderListCells = (description) => {
     var descArray = []
@@ -111,7 +125,21 @@ class ExperienceCell extends Component {
 
   render () {
     return (
-      <ExpCellContainer>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ 
+          color: '#fff',
+          borderRadius: 0,
+          border: '1px solid lightgrey'
+        }}
+        contentArrowStyle={{ 
+          border: '0.5px solid lightgrey', 
+          paddingRight: '15px', 
+          zIndex: -100}}
+        date="2011 - present"
+        iconStyle={{ border: ' 10px grey'}}
+        icon={<Logo src={this.props.data.logo}/>}
+      >
         <Header>
           <Title>
             <Company href={this.props.data.link} color={this.props.data.color}>{this.props.data.company}</Company>
@@ -121,13 +149,11 @@ class ExperienceCell extends Component {
           <Dates>{this.props.data.dates}</Dates>
           <TechStackTitle>Tech Stack</TechStackTitle>
           <TechStack>{this.renderListCells(this.props.data.stack)}</TechStack>
-          
-        </Header>
-        <Body>
           <Position>{this.props.data.position}</Position>
           <Description>{this.renderListCells(this.props.data.description)}</Description>
-        </Body>
-      </ExpCellContainer>
+        </Header>
+        {/* </Body> */}
+      </VerticalTimelineElement>
     );
   }
 }

@@ -12,7 +12,7 @@ const ProfileWrapper = styled.div`
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
-    margin: 80px;
+    margin: 50px;
   }
 `
 

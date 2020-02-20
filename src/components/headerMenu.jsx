@@ -7,12 +7,14 @@ const MenuWrapper = styled.div`
   position: fixed;
   display: flex;
   flex-direction: row;
-  text-transform: lowercase;
   justify-content: flex-start;
   width: 100vw;
   height: 60px;
   background-color: white;
   z-index: 1000;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 class HeaderMenu extends Component {
@@ -21,7 +23,7 @@ class HeaderMenu extends Component {
       <MenuWrapper>
         <HeaderSection text='Home' header="#home"/>
         <HeaderSection text='Projects' header="#projects"/>
-        <HeaderSection text='Experience' header="#experience" />
+        {/* <HeaderSection text='Experience' header="#experience" /> */}
         <HeaderSection text='Art' header="#gallery"/>
         {/* <HeaderSection text='About' header="#about"/> */}
         {/* <HeaderSection text='Design' header="#design"/> */}

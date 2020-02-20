@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import ExperienceCell from './experienceCell'
 import ExperienceData from './experienceData'
 import SectionTitle from '../sectionTitle'
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css';
 
 const SectionWrapper = styled.div`
   display: flex; 
@@ -31,13 +33,14 @@ class Experience extends Component {
     }
     return projectArray
   }
+
   render () {
     return (
       <SectionWrapper id='experience'>
         <SectionTitle title='experience'/>
-        <CellsWrapper>
+        <VerticalTimeline>
           {this.renderExperienceCells()}
-        </CellsWrapper>
+        </VerticalTimeline>
       </SectionWrapper>
     )
   }

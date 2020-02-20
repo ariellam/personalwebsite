@@ -13,6 +13,7 @@ export default {
     company: "Bunch Studios",
     color: "#716ADE",
     link: "https://www.bunch.live/",
+    logo: "https://i.imgur.com/8ahtfCF.png",
     position: "Software Engineering Intern",
     stack: ['React Native and Redux', 'Javascript', 'Google Firebase'],
     dates: "May to August 2018",
@@ -26,6 +27,7 @@ export default {
     company: "TribalScale",
     color: "#FFFD37",
     link: "https://www.tribalscale.com/",
+    logo: "https://i.imgur.com/pqu1jDH.jpg",
     position: "Software Engineering Intern",
     dates: "January to April 2019",
     stack: ['Swift', 'Objective-C', 'React and Redux', 'HTML/CSS', 'JavaScript'],
@@ -39,8 +41,9 @@ export default {
     key: "inkling",
     company: "Inkling",
     color: "#18A67F",
-    position: "Incoming Mobile Engineering Intern",
-    stack: ['TBA'],
+    logo: "https://i.imgur.com/FEFQXgt.png",
+    position: "Software Engineering Intern",
+    stack: ['React Native', 'Swift', 'Objective-C'],
     dates: "September 2019 to Present",
     description: ['Working on the company\'s core mobile product team, using React Native.']
   }

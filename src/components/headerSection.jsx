@@ -7,7 +7,6 @@ const SectionText = styled.div`
   font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  text-transform: lowercase;
   color: black;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
@@ -21,7 +20,7 @@ const SectionText = styled.div`
     color: rgb(51, 51, 51);
     text-align: center;
     text-overflow: clip;
-    text-shadow: 3px 3px 0px lightblue;
+    text-shadow: 1px 1px 0px #fa9887;
     text-decoration: none;
   }
   a {

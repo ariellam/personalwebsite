@@ -4,6 +4,9 @@ import GalleryDescription from './galleryDescription';
 
 const GalleryCellContainer = styled.div`
   overflow: hidden;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 `
 
 const Photo = styled.img`

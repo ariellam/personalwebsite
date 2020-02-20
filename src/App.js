@@ -13,7 +13,7 @@ function App() {
       <HeaderMenu/>
       <Profile/>
       <Projects/>
-      <Experience />
+      {/* <Experience /> */}
       <Gallery/>
       {/* <Design/> */}
       {/* <Blog/> */}

@@ -6,34 +6,34 @@ import ProjectDescription from './projectDescription'
 const ProjectCellContainer = styled.div`
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 465px;
 `
 
 const ProjectDetails = styled.div`
   height: 150px;
-  border: 1px solid rgba(0,0,0,0.1);
   border-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
 `
+
 const HeaderImage = styled.img`
-  width: 100%;
   z-index: 5;
+  width: 100%;
   opacity: 1;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
-  &:hover {
-    opacity: 0;
-    -webkit-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-  }
 `;
 
 const HeaderImageHover = styled.img`
+  position: absolute;
   width: 100%;
   opacity: 100%;
-  position: absolute;
 `;
 
 class ProjectCell extends Component {
@@ -48,8 +48,10 @@ class ProjectCell extends Component {
   render () {
     return (
       <ProjectCellContainer>
-        <HeaderImageHover src={this.props.project.imageHover} />
-        <HeaderImage src={this.props.project.image}/>
+        <>
+          {/* <HeaderImageHover src={this.props.project.imageHover} /> */}
+          <HeaderImage src={this.props.project.image}/>
+        </>
         <ProjectDetails>
           <ProjectDescription
             title={this.props.project.title}

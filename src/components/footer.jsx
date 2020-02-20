@@ -9,11 +9,12 @@ const FooterWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d9eaf3;
+  background-color: #fa9887;
   height: 150px;
 `
 
 const Quote = styled.div`
+  color: white;
   text-align: right;
 `
 const Source = styled.div`

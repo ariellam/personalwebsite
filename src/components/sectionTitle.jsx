@@ -19,8 +19,14 @@ const SectionHeader = styled.div`
     border: none;
     color: rgb(51, 51, 51);
     text-overflow: clip;
-    text-shadow: 3px 3px 0px lightblue;
+    text-shadow: 3px 3px 0px #ED6E58;
     text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    justify-content: center;
   }
 `;
 

@@ -4,6 +4,7 @@ import ProjectCell from './projectCell'
 import ProjectsData from './projectsData'
 import SectionTitle from '../sectionTitle'
 import StackGrid from 'react-stack-grid'
+import BrowserBar from './browserBar'
 
 const SectionWrapper = styled.div`
   display: flex;
@@ -22,9 +23,13 @@ class Projects extends Component {
     for(var i = 0; i < projectNames.length; i++) {
       const project = ProjectsData[projectNames[i]]
       projectArray.push(
-        <ProjectCell
-          project={project}
-        />
+        <>
+          <BrowserBar/>
+          <ProjectCell
+            project={project}
+          />
+        </>
+
       )
     }
     return projectArray
@@ -32,8 +37,8 @@ class Projects extends Component {
   render () {
     return (
       <SectionWrapper id='projects'>
-        <SectionTitle title='projects'/>
-          <StackGrid columnWidth={380}>
+        <SectionTitle title='Projects'/>
+          <StackGrid columnWidth={380} gutterHeight={30}>
             {this.renderProjectCells()}
           </StackGrid>
       </SectionWrapper>
