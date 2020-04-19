@@ -69,7 +69,7 @@ class ContactButtons extends Component {
         <ContactButton
           data-tip="Twitter"
           target="_blank"
-          href="https://www.twitter.com/aireclair/"
+          href="https://www.twitter.com/arielsonline/"
         >
           <FaTwitter />
         </ContactButton>
