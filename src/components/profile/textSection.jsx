@@ -20,6 +20,7 @@ const Name = styled.div`
   font-size: 64px;
   font-weight: 600;
   @media (max-width: 768px) {
+    font-size: 58px;
     width: 300px;
     margin-top: 20px;
     text-align: center;
