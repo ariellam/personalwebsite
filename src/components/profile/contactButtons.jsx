@@ -14,6 +14,9 @@ const ContactButtonsWrapper = styled.div`
   flex-direction: row;
   width: 90%;
   align-items: center;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 const ContactButton = styled.a`
@@ -29,6 +32,7 @@ const ContactButton = styled.a`
   margin-top: 10px;
   padding: 5px;
   border: 1px solid black;
+  
 `
 
 class ContactButtons extends Component {
@@ -38,7 +42,7 @@ class ContactButtons extends Component {
         <ReactTooltip
           class='tooltipClass'
           place='bottom'
-          offset={{'right': '25%'}}
+          // offset={{'right': '25%'}}
           effect='solid'
         />
         <ContactButton

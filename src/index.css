@@ -12,8 +12,6 @@ code {
     monospace;
 }
 
-.__react_component_tooltip.place-bottom:after { left: 20%; }
-
 .tooltipClass {
   border-radius: 0px;
   font-size: 11px;

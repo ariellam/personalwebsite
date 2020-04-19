@@ -12,6 +12,8 @@ const MenuWrapper = styled.div`
   height: 60px;
   background-color: white;
   z-index: 1000;
+  opacity: 90%;
+  backdrop-filter: blur(3px);
   @media (max-width: 768px) {
     justify-content: center;
   }
