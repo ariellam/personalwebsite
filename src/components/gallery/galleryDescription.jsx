@@ -6,6 +6,7 @@ const ProjectDescriptionContainer = styled.div`
   flex-direction: column;
   justify-content: space-around;
   padding: 15px;
+  border-top: solid 1px black;
 `
 
 const ArtTitle = styled.div`
@@ -16,7 +17,10 @@ const ArtTitle = styled.div`
 
 const ArtDescription = styled.div`
   color: black;
-  padding-top: 15px;
+`
+
+const ArtFormat = styled.div`
+  font-style: italic;
 `
 
 const DescriptionDivider = styled.div`
@@ -24,19 +28,22 @@ const DescriptionDivider = styled.div`
   width: 90%;
   background-color: black;
   margin-top: 7px;
+  margin-bottom: 15px;
 `
 
 class GalleryDescription extends Component {
   render () {
     return (
       <ProjectDescriptionContainer>
-        <ArtTitle>{this.props.title}</ArtTitle>
-        <DescriptionDivider/>
+        {/* {this.props.title && <ArtTitle>{this.props.title}</ArtTitle>} */}
+        {/* {this.props.title && <DescriptionDivider/>} */}
         <ArtDescription>
           {this.props.description}
-          <br/><br/>
-          {this.props.format}
         </ArtDescription>
+          {this.props.description && <br/>}
+        <ArtFormat>
+          {this.props.format}
+        </ArtFormat>
       </ProjectDescriptionContainer>
     )
   }

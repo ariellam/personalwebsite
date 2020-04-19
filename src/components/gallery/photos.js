@@ -1,24 +1,45 @@
 export default {
+  "lust-for-life": {
+    key: "lust-for-life",
+    src: "https://i.imgur.com/wtS8upc.jpg",
+    title: "",
+    description: "",
+    format: "Digital, December 2019."
+  },
+  "big-draw": {
+    key: "big-draw",
+    src: "https://i.imgur.com/YOJAlG8.png",
+    title: "",
+    description: "Created at The Big Draw Festival event, held by Apple.",
+    format: "Digital, October 2019."
+  },
+  elle: {
+    key: "elle",
+    src: "https://i.imgur.com/WQVWxGx.png",
+    title: "",
+    description: "",
+    format: "Digital, October 2019."
+  },
   "bunch-kids": {
     key: "bunch-kids",
     src: "https://i.imgur.com/ur5syqw.jpg",
     title: "Bunch App of the Day Feature",
-    description: "Apple App Store assets for Bunch.",
-    format: "Digital, August 2018"
+    description: "App Store App of the Day artwork created for Bunch.",
+    format: "Digital, August 2018."
   },
   "american-beauty": {
     key: "american-beauty",
     title: "American Beauty",
     src: "https://i.imgur.com/9EiBxYS.png",
-    description: "Personal work.",
+    description: "",
     format: "Digital, June 2018."
   },
   catfight: {
     key: "catfight",
     src: "https://i.imgur.com/sihuEgl.png",
-    title: "Unreleased Game Concept Art",
+    title: "",
     description: "Character sheets, storyboards, and digital assets created for a mobile multiplayer game.",
-    format: "Digital, July 2018"
+    format: "Digital, July 2018."
   },
   "google-doodle": {
     key: "google-doodle",
@@ -31,21 +52,21 @@ export default {
     key: "thursdaze",
     src: "https://i.imgur.com/8Mw2ZWZ.jpg",
     title: "Thursdaze Character Sprites",
-    description: "Character designs and running sprites for an in progress iOS game.",
+    description: "Character designs for a personal project.",
     format: "Digital, July 2018."
   },
   "christine-valentine": {
     key: "chris-val",
     src: "https://i.imgur.com/l9socVn.png",
     title: "Christine and Valentine",
-    description: "Original characters from a personal project.",
+    description: "",
     format: "Digital, February 2019."
   },
   "vodka-cran": {
     key: "vodka-cran",
     src: "https://i.imgur.com/5SPWeLa.png",
     title: "Vodka Cranberry",
-    description: "Personal work.",
+    description: "",
     format: "Digital, April 2019."
   },
   "subway-reader": {
@@ -58,8 +79,8 @@ export default {
   "cold-as-ice": {
     key: "cold-as-ice",
     src: "https://i.imgur.com/vCJPhBB.png",
-    title: "Colder than a Machine",
-    description: "Personal work.",
+    title: "",
+    description: "",
     format: "Digital, May 2019."
   }
 }
