@@ -14,7 +14,7 @@ const GalleryWrapper = styled.div`
 
 class Gallery extends Component {
   renderGalleryCells = () => {
-    const imageNames = ['elle', 'big-draw', 'lust-for-life', 'christine-valentine', 'bunch-kids', 'vodka-cran', 'thursdaze', 'cold-as-ice', 'google-doodle',]
+    const imageNames = ['elle', 'big-draw', 'lust-for-life', 'double-agent', 'christine-valentine',   'vodka-cran', 'thursdaze',  'bunch-kids', 'cold-as-ice', 'google-doodle',]
     var projectArray = []
     for(var i = 0; i < imageNames.length; i++) {
       const image = photos[imageNames[i]]

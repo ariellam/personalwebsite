@@ -1,4 +1,11 @@
 export default {
+  "double-agent": {
+    key: "double-agent",
+    src: "https://i.imgur.com/ouGJRNn.png?1",
+    title: "",
+    description: "",
+    format: "Digital, December 2019."
+  },
   "lust-for-life": {
     key: "lust-for-life",
     src: "https://i.imgur.com/wtS8upc.jpg",
