@@ -1,4 +1,18 @@
 export default {
+  "streetwear": {
+    key: "streetwear",
+    src: "https://i.imgur.com/shBsAHi.png",
+    title: "",
+    description: "",
+    format: "Digital, May 2020."
+  },
+  "se-website-art": {
+    key: "se-website-art",
+    src: "https://i.imgur.com/DQLmvxm.png",
+    title: "",
+    description: "Created for the SE Society Website.",
+    format: "Digital, May 2020."
+  },
   "double-agent": {
     key: "double-agent",
     src: "https://i.imgur.com/ouGJRNn.png?1",

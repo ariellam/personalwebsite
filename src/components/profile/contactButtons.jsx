@@ -16,6 +16,7 @@ const ContactButtonsWrapper = styled.div`
   align-items: center;
   @media (max-width: 768px) {
     justify-content: center;
+    padding-top: 20px;
   }
 `
 
