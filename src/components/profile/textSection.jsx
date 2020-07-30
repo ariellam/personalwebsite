@@ -22,7 +22,7 @@ const Name = styled.div`
   @media (max-width: 768px) {
     font-size: 58px;
     width: 300px;
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
   }
 `;
@@ -56,11 +56,11 @@ class TextSection extends Component {
       <TextSectionWrapper>
         <Name>Ariel Lam</Name>
         <AboutMe>
-          Hi, I'm Ariel! I'm a 3A Software Engineering student at the University of Waterloo. I'm passionate about mobile and front-end development, design, and user experiences.
+          Hi, I'm Ariel! I'm a third year Software Engineering student at the University of Waterloo. I'm passionate about mobile and front-end development, design, and user experiences.
           <br/><br/>
-          I'm an incoming Software Engineering Intern at Apple; previously, I've interned at <Link href="https://www.inkling.com/">Inkling</Link>, <Link href="https://bunch.live/">Bunch</Link>, <Link href="https://www.tribalscale.com/">TribalScale</Link>,  and <Link href="https://www.rbcroyalbank.com/personal.html">RBC</Link>.
+          Right now, I'm currently interning at Apple. Previously, I've worked at <Link href="https://www.inkling.com/">Inkling</Link>, <Link href="https://bunch.live/">Bunch</Link>, <Link href="https://www.tribalscale.com/">TribalScale</Link>,  and <Link href="https://www.rbcroyalbank.com/personal.html">RBC</Link>.
           <br/><br/>
-          On my spare time, I love to draw, <Link href="https://open.spotify.com/playlist/3z9DguFEZgpBDgxPqLpu0z?si=06xXF_q4Que3WAvYOaC-sQ">curate playlists</Link>, go to concerts, attend tech conferences, spend hours in art museums, and collect (<Link href="https://www.etsy.com/ca/listing/586854300/software-pin">and make!</Link>) pins.
+          On my spare time, I love to draw, <Link href="https://open.spotify.com/playlist/3z9DguFEZgpBDgxPqLpu0z?si=06xXF_q4Que3WAvYOaC-sQ">curate playlists</Link>, go to concerts, attend tech conferences, spend hours in art museums, and collect pins.
         </AboutMe>
         <ContactButtons/>
       </TextSectionWrapper>
