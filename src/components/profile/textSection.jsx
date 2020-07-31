@@ -58,9 +58,9 @@ class TextSection extends Component {
         <AboutMe>
           Hi, I'm Ariel! I'm a third year Software Engineering student at the University of Waterloo. I'm passionate about mobile and front-end development, design, and user experiences.
           <br/><br/>
-          Right now, I'm currently interning at Apple. Previously, I've worked at <Link href="https://www.inkling.com/">Inkling</Link>, <Link href="https://bunch.live/">Bunch</Link>, <Link href="https://www.tribalscale.com/">TribalScale</Link>,  and <Link href="https://www.rbcroyalbank.com/personal.html">RBC</Link>.
+          I'm currently interning at Apple; previously, I've worked at <Link href="https://www.inkling.com/">Inkling</Link>, <Link href="https://bunch.live/">Bunch</Link>, <Link href="https://www.tribalscale.com/">TribalScale</Link>,  and <Link href="https://www.rbcroyalbank.com/personal.html">RBC</Link>.
           <br/><br/>
-          On my spare time, I love to draw, <Link href="https://open.spotify.com/playlist/3z9DguFEZgpBDgxPqLpu0z?si=06xXF_q4Que3WAvYOaC-sQ">curate playlists</Link>, go to concerts, attend tech conferences, spend hours in art museums, and collect pins.
+          On my spare time, I love to draw, listen to music, advocate for women in tech, spend hours in art museums, and collect pins.
         </AboutMe>
         <ContactButtons/>
       </TextSectionWrapper>
