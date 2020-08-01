@@ -12,10 +12,10 @@ import ReactTooltip from 'react-tooltip'
 const ContactButtonsWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  width: 90%;
   align-items: center;
   @media (max-width: 768px) {
     justify-content: center;
+    align-items: center;
     padding-top: 20px;
   }
 `
@@ -33,7 +33,6 @@ const ContactButton = styled.a`
   margin-top: 10px;
   padding: 5px;
   border: 1px solid black;
-  
 `
 
 class ContactButtons extends Component {

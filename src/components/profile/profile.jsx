@@ -13,6 +13,8 @@ const ProfileWrapper = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     margin: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 `
 

@@ -10,7 +10,7 @@ import {AiOutlineCloseSquare, AiOutlinePlusSquare, AiOutlineMinusSquare, AiOutli
 const PicContainer = styled.div`
   margin-top: 20px;
   @media (max-width: 768px) {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 `
 const BrowserBar = styled.div`

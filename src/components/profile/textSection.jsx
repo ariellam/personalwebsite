@@ -3,15 +3,14 @@ import styled from 'styled-components'
 import ContactButtons from './contactButtons';
 
 const TextSectionWrapper = styled.div`
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: baseline;
   width: 360px;
   margin-left: 50px;
   @media (max-width: 768px) {
     align-items: center;
-    width: 320px;
+    width: 295px;
     margin: 0px;
   }
 `
@@ -19,6 +18,7 @@ const Name = styled.div`
   font-family: "Work Sans", monospace;
   font-size: 64px;
   font-weight: 600;
+  height: 70px;
   @media (max-width: 768px) {
     font-size: 58px;
     width: 300px;
