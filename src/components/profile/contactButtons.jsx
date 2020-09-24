@@ -67,13 +67,6 @@ class ContactButtons extends Component {
           <FaLinkedinIn />
         </ContactButton>
         <ContactButton
-          data-tip="Twitter"
-          target="_blank"
-          href="https://www.twitter.com/arielsonline/"
-        >
-          <FaTwitter />
-        </ContactButton>
-        <ContactButton
           data-tip="Spotify"
           target="_blank"
           href="https://open.spotify.com/user/fluxue?si=Y6UJAo5yTViKvVGoyhnTXw"
